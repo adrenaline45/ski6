@@ -1,0 +1,102 @@
+/*Time*/
+#time-div {
+	margin: 10px auto;
+	width: 640px;
+}
+#time-div h2 {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+#time {
+	text-align: center;
+	font-size: 20px;
+}
+/*Page Visibility*/
+#page-visibillity {
+	width: 640px;
+	margin: 10px auto;
+}
+#page-visibillity h2 {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+#content {
+	overflow: auto;
+	width: 640px;
+	height: 200px;
+	border: 2px solid black;
+}
+.leave {
+	background-color: orange;
+	text-align: center;
+	margin: 2px;
+	font-size: 18px;
+}
+.visit {
+	background-color: deepskyblue;
+	text-align: center;
+	margin: 2px;
+	font-size: 18px;
+}
+/*Drag and drop*/
+#drag-drop {
+	margin: 50px auto;
+}
+#drag-drop h2 {
+	background-color: black;
+	color: white;
+	width: 640px;
+	text-align: center;
+	margin: 20px auto;
+}
+#items {
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+.image {
+	width: 200px;
+	height: 200px;
+}
+.image2 {
+	width: 300px;
+	height: 200px;
+}
+#checkout {
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+#cart {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	margin: 0 10px;	
+}
+#checkout h2 {
+	background-color: black;
+	color: white;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#list {
+	width: 400px;
+	height: 200px;
+	border: 2px solid black;
+	margin: 0 10px;
+	overflow: auto;	
+}
+#list p {
+	font-size: 20px;
+	margin: 0;
+	line-height: 0;
+}
